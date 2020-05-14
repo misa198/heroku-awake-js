@@ -1,0 +1,26 @@
+{
+  "name": "heroku-awake",
+  "version": "1.0.0",
+  "description": "keep heroku app always awakes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/misa198/heroku-awake.git"
+  },
+  "keywords": [
+    "heroku",
+    "herokuapp",
+    "dyno",
+    "awake",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com//misa198/heroku-awake/issues"
+  },
+  "homepage": "https://github.com//misa198/heroku-awake#readme",
+  "author": "misa198",
+  "license": "ISC"
+}
