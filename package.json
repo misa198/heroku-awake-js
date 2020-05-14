@@ -1,8 +1,8 @@
 {
   "name": "heroku-awake",
   "version": "1.0.0",
-  "description": "keep heroku app always awakes",
-  "main": "src/index.js",
+  "description": "keep heroku app always awake",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,10 @@
   "bugs": {
     "url": "https://github.com//misa198/heroku-awake/issues"
   },
-  "homepage": "https://github.com//misa198/heroku-awake#readme",
+  "homepage": "https://github.com/misa198/heroku-awake#readme",
   "author": "misa198",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
