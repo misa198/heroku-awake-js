@@ -1,6 +1,6 @@
 # Herokuapp Awake
 
-Keep your herokuapp always awake
+Keep your herokuapp always awake.
 
 ## requirement
 * Node
