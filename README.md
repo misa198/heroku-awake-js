@@ -2,7 +2,7 @@
 
 Keep your herokuapp always awake.
 
-## requirement
+## Requirement
 * Node
 * Yarn or npm
 
