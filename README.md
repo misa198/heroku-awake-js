@@ -10,7 +10,7 @@ Keep your herokuapp always awake.
 
 ```bash
 # If you use npm
-$ npm i heroku-awake
+$ npm i heroku-awake --save
 
 # If you use yarn
 $ yarn add heroku-awake
