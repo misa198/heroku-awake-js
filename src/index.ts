@@ -1,18 +1,21 @@
 import fetch from "node-fetch";
 
-const wakeUp = (url: string, interval: number = 25, callback: Function) => {
-  const milliseconds = interval * 60000;
+const wakeUp = (url: string, interval?: number, callback?: Function) => {
+  const _interval = interval ? interval : 25;
+  const milliseconds = _interval * 60000;
   setTimeout(() => {
     try {
       fetch(url);
     } catch (err) {
     } finally {
       try {
-        callback();
+        if (callback) {
+          callback();
+        }
       } catch (e) {
         callback ? console.log("Callback failed: ", e.message) : null;
       } finally {
-        return wakeUp(url, interval, callback);
+        return wakeUp(url, _interval, callback);
       }
     }
   }, milliseconds);
