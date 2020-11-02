@@ -1,6 +1,6 @@
 {
   "name": "heroku-awake",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "keep heroku app always awake",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
