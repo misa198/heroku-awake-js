@@ -1,6 +1,10 @@
 import fetch from "node-fetch";
 
-const wakeUp = (url: string, interval?: number, callback?: Function) => {
+export = function wakeUp(
+  url: string,
+  interval?: number,
+  callback?: Function
+) {
   const _interval = interval ? interval : 25;
   const milliseconds = _interval * 60000;
   setTimeout(() => {
@@ -19,6 +23,4 @@ const wakeUp = (url: string, interval?: number, callback?: Function) => {
       }
     }
   }, milliseconds);
-};
-
-export default wakeUp;
+}
