@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://res.cloudinary.com/dumfvnj9f/image/upload/v1604343810/heroku-awake/dyno_weedab.png" width="256px" />
   <p align="center" style="font-size: 20px; color: #79589F">
-    Keep your herokuapp always awake.
+    Keep your herokuapp always awakes.
   </p>
   <p align="center">
     <img src="https://camo.githubusercontent.com/c031efcc66c1bfc646f4369604955b26f3e1dbcb/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f657870726573732e737667" alt="NPM Version" data-canonical-src="https://img.shields.io/npm/v/express.svg" style="max-width:100%;">
