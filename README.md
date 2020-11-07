@@ -4,13 +4,13 @@
   <p align="center" style="font-size: 20px; color: #79589F">
     Keep your herokuapp always awakes.
   </p>
-  <p align="center" style="font-size: 14px;">
-    Support Javascript and Typescript
-  </p>
   <p align="center">
     <img src="https://camo.githubusercontent.com/c031efcc66c1bfc646f4369604955b26f3e1dbcb/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f657870726573732e737667" alt="NPM Version" data-canonical-src="https://img.shields.io/npm/v/express.svg" style="max-width:100%;">
     <img src="https://camo.githubusercontent.com/832d01092b0e822178475741271b049a2e27df13/68747470733a2f2f62616467656e2e6e65742f62616467652f2d2f547970655363726970742f626c75653f69636f6e3d74797065736372697074266c6162656c" alt="ts" data-canonical-src="https://badgen.net/badge/-/TypeScript/blue?icon=typescript&amp;label" style="max-width:100%;">
     <img src="https://camo.githubusercontent.com/195f84d670ceb5a1d47c755d24a991da4b902440/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f406e6573746a732f636f72652e737667" alt="Package License" data-canonical-src="https://img.shields.io/npm/l/@nestjs/core.svg" style="max-width:100%;">
+  </p>
+  <p align="center" style="font-size: 14px;">
+    Support Javascript and Typescript
   </p>
 </p>
 
