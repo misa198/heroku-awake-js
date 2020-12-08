@@ -34,7 +34,7 @@ const herokuAwake = require('heroku-awake');
 
 const PORT = 3000;
 const url = 'https://your-app.herokuapp.com';
-const time = 10; // Your application interval is refreshed, default is 25 mins
+const time = 25; // Your application interval is refreshed, default is 25 mins
 
 const app = express();
 
