@@ -1,4 +1,5 @@
 # Heroku Awake
+
 <p align="center">
   <img src="https://res.cloudinary.com/dumfvnj9f/image/upload/v1604343810/heroku-awake/dyno_weedab.png" width="256px" />
   <p align="center" style="font-size: 20px; color: #79589F">
@@ -15,8 +16,9 @@
 </p>
 
 ## Requirement
-* Node
-* Yarn or NPM
+
+- Node
+- Yarn or NPM
 
 ## Installation
 
@@ -28,20 +30,47 @@ $ yarn add heroku-awake
 
 ## Usage
 
+### Javascript
 ```javascript
-const express = require('express');
-const herokuAwake = require('heroku-awake');
+const express = require("express");
+const herokuAwake = require("heroku-awake");
 
 const PORT = 3000;
-const url = 'https://your-app.herokuapp.com';
-const time = 25; // Your application interval is refreshed, default is 25 mins
+const url = "https://your-app.herokuapp.com";
 
 const app = express();
 
 app.listen(PORT, () => {
+  // Default application refresh time is 25 mins
+  herokuAwake(url);
+
+  // If you want to change application refresh time
+  const time = 10;
+  herokuAwake(url, time);
+});
+```
+
+
+### Typescript
+```typescript
+import * as express from "express";
+import * as herokuAwake from "heroku-awake";
+
+const PORT = 3000;
+const url = "https://your-app.herokuapp.com";
+
+const app = express();
+
+app.listen(PORT, () => {
+  // Default application refresh time is 25 mins
+  herokuAwake(url);
+
+  // If you want to change application refresh time
+  const time = 10;
   herokuAwake(url, time);
 });
 ```
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
