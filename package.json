@@ -1,5 +1,5 @@
 {
-  "name": "heroku-awake",
+  "name": "@misa198/heroku-awake",
   "version": "1.0.11",
   "description": "Keep heroku app always awakes",
   "main": "lib/index.js",
